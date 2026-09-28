@@ -2,6 +2,12 @@
 
 Detecta **capacete** e **colete** pela webcam e mostra LIBERADO ou BLOQUEADO.
 
+## Arquitetura
+
+![Arquitetura do MIRA](docs/arquitetura.png)
+
+Fonte editável: [`docs/arquitetura.excalidraw`](docs/arquitetura.excalidraw) (abrir em [excalidraw.com](https://excalidraw.com)).
+
 ## Rodar
 
 ```
