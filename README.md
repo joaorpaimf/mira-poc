@@ -17,7 +17,9 @@ pip install -r requirements.txt
 python mira_webcam.py
 ```
 
-Das próximas vezes, só as duas últimas linhas sem o `pip`. Pra sair: `Q` na janela do vídeo. `S` salva uma foto.
+Das próximas vezes, só as duas últimas linhas sem o `pip`. Pra sair: `Q` na janela do vídeo. `S` salva uma foto. `F` alterna a tela cheia.
+
+Na primeira execução o modelo é convertido para OpenVINO (pasta `mira_ppe_openvino_model/`, leva ~1 min), que roda bem mais rápido no CPU. O canto superior mostra `FPS | IA`: o FPS do vídeo (~30) e quantos frames por segundo o modelo analisa.
 
 ## Opções
 

@@ -1,2 +1,4 @@
 venv/
 registros/
+mira_ppe_openvino_model/
+__pycache__/
